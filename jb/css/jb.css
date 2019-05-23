@@ -1,0 +1,130 @@
+/* CSS Document */
+body{background:#FFF7F7;}
+#hander{ background:url(../images/h_bg.jpg) repeat-x; width:100%; height:282px;}
+#banner{ width:1000px; height:282px; margin:0 auto;}
+#logo{ width:1000px; height:187px;}
+#logo .l_left{ width:622px; height:187px;position:relative;}
+/*CssSprite*/
+#logo h1{ position:absolute; top:24px; left:36px; background:url(../images/CssSprite.png) 0 0 no-repeat; width:493px; height:95px;}
+#logo .l_l_star{ position:absolute;top:140px;left:171px; background:url(../images/CssSprite.png) 0 -97px no-repeat; width:61px;height:47px; }
+#logo .l_baby{ width:378px; height:134px;  padding-top:53px;}
+#logo .l_b_img{ background:url(../images/CssSprite.png) 0 -145px  no-repeat; width:314px; height:134px;}
+
+/*导航 beigin*/
+#nav{ width:897px; height:95px; padding:0 54px 0 49px;}
+#nav ul{width:897px; height:95px;}
+#nav ul li{ float:left;height:95px; background:#0000CC;}
+#nav .li_1{ background:url(../images/CssSprite.png) -331px -114px no-repeat; width:83px; height:76px;}
+/*组合选择器*/
+#nav .li_2,#nav .li_3,#nav .li_4,#nav .li_5{ background:url(../images/CssSprite.png) 0 -293px repeat-x; width:125px; height:35px; padding:17px 10px 24px 10px}
+#nav .li_6{background:url(../images/CssSprite.png) -443px -113px no-repeat; width:49px; height:76px;}
+#nav .li_7,#nav .li_8{ background:url(../images/CssSprite.png) 0 -378px repeat-x; width:71px; height:36px; padding:20px 2px;}
+#nav .li_9{background:url(../images/CssSprite.png) -522px -114px no-repeat; width:35px; height:76px;}
+#nav .li_2 a,#nav .li_3 a,#nav .li_4 a,#nav .li_5 a{ display:block;width:124px; height:35px;}
+#nav .li_2 a{ background:url(../images/CssSprite.png) 0 -660px no-repeat;}
+#nav .li_3 a{ background:url(../images/CssSprite.png) 0 -622px no-repeat;}
+#nav .li_4 a{ background:url(../images/CssSprite.png) 0 -546px no-repeat;}
+#nav .li_5 a{ background:url(../images/CssSprite.png) 0 -584px no-repeat;}
+
+#nav .li_7 a,#nav .li_8 a{ display:block; width:71px; height:35px;}
+#nav .li_7 a{ background:url(../images/CssSprite.png) 0 -509px no-repeat;}
+#nav .li_8 a{ background:url(../images/CssSprite.png) -84px -509px no-repeat;}
+ 
+/*导航  end*/
+/*主要内容 begin*/
+
+#container{
+width:100%;
+background:url(../images/c_bg.jpg) top repeat-x;
+/*测试高度*/
+}
+#content{
+background:#FFFFFF;
+width:1000px;
+margin:0 auto;
+
+}
+#main{ height:35px; width:100%;}
+#main ul{width:100%; height:35px;}
+#main .mn_1,#main .mn_2,#main .mn_3,#main .mn_4,#main .mn_5{ height:35px;}
+#main .mn_1{ background:url(../images/CssSprite_2.png) 0 0 no-repeat;width:33px;}
+#main .mn_2{ background:url(../images/CssSprite_2.png) 0 -60px; width:132px;}
+#main .mn_3{ background:url(../images/CssSprite_2.png) -40px 0 no-repeat; width:76px;}
+#main .mn_4{ background:url(../images/CssSprite_2.png) 0 -60px; width:718px;}
+#main .mn_5{  background:url(../images/CssSprite_2.png) -123px 0 no-repeat;width:41px;}
+
+/*框架上部 end*/
+
+#cnt_left{width:222px; height:835px; float:left; background:url(../images/l_bg.png) repeat-y}
+#cnt_left ul{ width:182px;height:835px; padding-left:10px;}
+#cnt_left .menu_1 a,.menu_2 a,.menu_3 a,.menu_4 a,.menu_5 a,.menu_6 a,.menu_7 a,.menu_8 a,.menu_9 a,.menu_10 a,.menu_11 a,.menu_12 a,.menu_13 a{display:block}
+#cnt_left .menu_1{ background:url(../images/CssSprite_2.png) 0 -110px no-repeat; width:116px; height:37px;}
+#cnt_left .menu_2 a{ background:url(../images/CssSprite_2.png) 0 -160px no-repeat; width:158px; height:56px;}
+#cnt_left .menu_3 a{ background:url(../images/CssSprite_2.png) -200px -112px no-repeat; width:138px; height:39px;}
+#cnt_left .menu_4 a{ background:url(../images/CssSprite_2.png) -200px -156px no-repeat; width:138px; height:39px;}
+#cnt_left .menu_5 a{ background:url(../images/CssSprite_2.png) 0 -240px no-repeat; width:138px; height:39px;}
+#cnt_left .menu_6 a{ background:url(../images/CssSprite_2.png) -200px -246px no-repeat; width:138px; height:39px;}
+#cnt_left .menu_7 a{ background:url(../images/CssSprite_2.png) -200px -200px no-repeat; width:138px; height:39px;}
+#cnt_left .menu_8 a{ background:url(../images/CssSprite_2.png) -200px -285px no-repeat; width:138px; height:39px;}
+#cnt_left .menu_9 a{ background:url(../images/CssSprite_2.png) 0 -290px no-repeat; width:138px; height:39px;}
+#cnt_left .menu_10 a{ background:url(../images/CssSprite_2.png) 0 -340px no-repeat; width:138px; height:39px;}
+#cnt_left .menu_11 a{ background:url(../images/CssSprite_2.png) -200px -325px no-repeat; width:138px; height:39px;}
+#cnt_left .menu_12 a{ background:url(../images/CssSprite_2.png) -200px -365px no-repeat; width:138px; height:39px;}
+#cnt_left .menu_13 a{ background:url(../images/CssSprite_2.png) -200px -405px no-repeat; width:138px; height:39px;}
+
+/*内容左 end*/
+
+#cnt_reight{ width:777px; height:835px;  float:left; background:url(../images/r_bg.png) repeat-y; background-position:right;}
+#cnt_reight .c_top{ background:url(../images/c_t_bg.png) no-repeat;width:755px; height:180px}
+#cnt_reight .gd{background:url(../images/gd.png) center bottom no-repeat; width:755px; height:165px}
+#cnt_reight .border{ background:#00FFFF; width:755px; height:40px;}
+#cnt_reight .title{ width:755px; height:29px;}
+#cnt_reight .c_mid{width:755px; height:580px;}
+#cnt_reight .c_mid .m_l,#cnt_reight .c_mid .m_r{ height:580px;}
+#cnt_reight .c_mid .m_l{width:405px; margin-left:20px}
+#cnt_reight .c_mid .m_r{width:310px;}
+#cnt_reight .c_t1 a,.c_t2 a,.c_t3 a{ display:block;height:29px; width:240px;}
+#cnt_reight .title .c_t1 a{ background:url(../images/c_t1.png) no-repeat;height:29px; width:240px;}
+#cnt_reight .title .c_t2 a{ background:url(../images/c_t2.png) no-repeat;height:29px; width:240px;}
+#cnt_reight .title .c_t3 a{ background:url(../images/c_t3.png) no-repeat;height:29px; width:240px;}
+#cnt_reight .border{background:url(../images/c_border.png); height:40px; width:755px}
+#cnt_reight .m_l ul { height:520px;}
+#cnt_reight .m_l ul li{ background:url(../images/t_t.png) left no-repeat; padding-left:25px; padding-top:3px; height:25px; width:380px;}
+#cnt_reight .tc{ color:#C4C1C0;}
+#cnt_reight .m_l ul li a:link{ color:#3E4A4A;}
+#cnt_reight .m_l ul li a:visited{ color:#3E4A4A}
+
+#cnt_reight .m_l ol{ width:320px; height:24px; margin-top:30px;}
+#cnt_reight .m_l li{ width:80px; height:24px; float:left;}
+
+#cnt_reight .m_r .ts,#cnt_reight .m_r .zt{ height:280px; width:300px;}
+#cnt_reight .m_r .ts{background:url(../images/ts.png) no-repeat center;}
+#cnt_reight .m_r .zt{background:url(../images/zt.png) no-repeat center; width:300px;}
+#cnt_reight .tst{width:300px; height:20px; text-align:center; padding-top:20px; color:#E97270; font-size:18px; font-family:"幼圆";}
+#cnt_reight .tstu{ background:url(../images/tskt.png) right no-repeat; height:100px; width:135px;}
+#cnt_reight .tszi{ height:75px; width:130px; padding-top:25px; color:#848788;}
+#cnt_reight .ts_2{ height:120px; width:260px; padding-top:20px; padding-left:40px;}
+#cnt_reight .ts_2 ul{ height:120px; width:260px;}
+#cnt_reight .ts_2 ul li a:link{ color:#3E4A4A;}
+#cnt_reight .ts_2 ul li a:visited{ color:#3E4A4A}
+#cnt_reight .zt1{background:url(../images/ztpt.png) center bottom no-repeat; height:180px; width:300px;}
+#cnt_reight .zt2{ height:100px; width:250px; padding: 5px 25px; }
+#cnt_reight .zt2 a:link{ color:#3E4A4A;}
+#cnt_reight .zt2 a:visited{ color:#3E4A4A}
+
+/*内容右 end*/
+
+#main_1{ height:37px; width:100%;}
+#main_1 ul{width:100%; height:37px;}
+#main_1 .mn_6,#main_1 .mn_7,#main_1 .mn_8,#main_1 .mn_9,#main_1 .mn_0{ height:35px;}
+#main_1 .mn_6{ background:url(../images/CssSprite_2.png) -170px 0 no-repeat;width:33px;}
+#main_1 .mn_7{ background:url(../images/CssSprite_2.png) 0 -36px; width:131px;}
+#main_1 .mn_8{ background:url(../images/CssSprite_2.png) -210px 0 no-repeat; width:76px;}
+#main_1 .mn_9{ background:url(../images/CssSprite_2.png) 0 -36px; width:718px;}
+#main_1 .mn_0{  background:url(../images/CssSprite_2.png) -300px 0 no-repeat;width:41px;}
+
+/*框架下部 end*/
+#footer{ position:relative;}
+
+.f_line{ background:url(../images/footer.gif) repeat-x; width:100%; height:25px; float:left;}
+.f_bg{ background:url(../images/f_bg.gif); width:840px; height:141px; margin:40px auto; *margin-top:20px;}

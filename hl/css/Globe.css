@@ -1,0 +1,20 @@
+/* CSS Document */
+*{margin:0;padding:0;}
+ol, ul {list-style: none;}
+a{ text-decoration:none;}
+a,a *,label{ cursor:pointer; vertical-align: baseline;}
+.l{ float:left}
+/* float right */
+.r{ float:right}
+/*搜索引擎优化  pan*/
+.seo{text-indent:-9999px;font-size:0}
+/*清除浮动 css*/
+/*clear float css*/
+.c:after{content:"";display:block;clear:both; height:0; visibility:hidden}
+.c{zoom:1}
+.c2{ clear:both; height:0; overflow:hidden; line-height:0; font-size:0}
+.c3_list li,.c3_list dd{overflow:hidden;width:100%;vertical-align:middle;}
+/* float left */
+.c3_list li,.c3_list dd{overflow:hidden;width:100%;vertical-align:middle;}
+/*解决双边距的*/
+.hidden{ display:none}
